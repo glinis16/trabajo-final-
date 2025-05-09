@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>Rec</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <corbanda>8168F2</corbanda>
+        <cornavega>A87AE0</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Explorando los instrumentos musicales</titulo>
+        <subtitulo>1er Grado</subtitulo>
+        <autor>Lesly y Glinis</autor>
+        <logo>30675.jpg</logo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+         <sonido nivel="100">dame-una-sonrisa-ukulele-background-music.mp3</sonido>
+        <correcto son="bien.mp3" modo="1" >¡Felicidades!</correcto>
+        <incorrecto son="error-170796.mp3" modo="1" >¡Puedes hacerlo mejor!</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <cabeceira>¡Aprendamos jugando!</cabeceira>
+              <imaxe auto="1"  posx="0" posy="0">presentacion_.jpg</imaxe>
+              <son>dame-una-sonrisa-ukulele-background-music.mp3</son>
+        </paxina>
+        <paxina id="2" >
+              <tipo>2</tipo>
+              <cabeceira>¿Qué es un instrumento?</cabeceira>
+              <imaxe auto="1"  posx="114" posy="-1">Qu_e_es_un_instrumento_musical_page-0001.jpg</imaxe>
+              <son>suspenso1.mp3</son>
+        </paxina>
+        <paxina id="3" >
+              <tipo>2</tipo>
+              <cabeceira>Sabias que...</cabeceira>
+              <imaxe auto="1"  posx="136" posy="2">Un_instrumento_musical_es_un_objeto_que_usamos_page-0002.jpg</imaxe>
+        </paxina>
+        <paxina id="4" >
+              <tipo>7</tipo>
+              <cabeceira>Clasifica segun corresponda</cabeceira>
+              <caixa1>Cuerda </caixa1>
+              <caixa2>Viento </caixa2>
+              <mini caixa="1">guitarra.jpg</mini>
+              <mini caixa="2">trompeta.jpg</mini>
+              <mini caixa="2">clarinete.png</mini>
+              <mini caixa="1">violin.png</mini>
+              <mini caixa="1">bajo.png</mini>
+              <mini caixa="2">flauta.jpg</mini>
+              <cfondo>FFFFFF</cfondo>
+        </paxina>
+        <paxina id="5" >
+              <tipo>22</tipo>
+              <cabeceira>Relaciona el sonido con el instrumento</cabeceira>
+              <modo>5</modo>
+              <cousa nome="" son="guitarra.mp3">guitarra.jpg</cousa>
+              <cousa nome="" son="bateria.mp3">bateria_.jpg</cousa>
+              <cousa nome="" son="trompeta.mp3">trompeta.jpg</cousa>
+        </paxina>
+        <paxina id="6" >
+              <tipo>17</tipo>
+              <cabeceira>¡JUGUEMOS!</cabeceira>
+              <parellas>flauta.jpg</parellas>
+              <parellas>bateria_.jpg</parellas>
+              <parellas>guitarra.jpg</parellas>
+              <parellas>violin.png</parellas>
+              <parellas>tambor_.png</parellas>
+              <parellas>trompeta.jpg</parellas>
+              <cfondo>FFFFFF</cfondo>
+              <ctapa>000000</ctapa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>1</tipo>
+              <cabeceira>¡Pensemos juntos!</cabeceira>
+              <texto>¿Cuál es un instrumento de cuerda?</texto>
+              <resp texto="" valor="0">Bateria </resp>
+              <resp texto="" valor="0">Flauta</resp>
+              <resp texto="" valor="1">Guitarra</resp>
+              <resp texto="" valor="0">Trompeta</resp>
+        </paxina>
+        <paxina id="8" >
+              <tipo>1</tipo>
+              <cabeceira>¡Pensemos juntos!</cabeceira>
+              <texto>¿Cuales son instrumentos de viento?</texto>
+              <resp texto="" valor="0">Guitarra, trompeta, bajo.</resp>
+              <resp texto="" valor="1">Flauta, trompeta, clarinete.</resp>
+              <resp texto="" valor="0">Bateria, tambor, ukelele</resp>
+        </paxina>
+        <paxina id="9" >
+              <tipo>3</tipo>
+              <cabeceira>¡JUGUEMOS!</cabeceira>
+              <imaxe>30675.jpg</imaxe>
+              <filas>3</filas>
+              <columnas>3</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+    </libro>
+</lim>
